@@ -20,4 +20,4 @@ gulp.task("cadastro", async () => {
 	}
 });
 
-gulp.task("default", gulp.series("cadastro"));
+gulp.task("default", gulp.series("cadastro")); 

@@ -34,6 +34,7 @@ mongoose
 	)
 	.then(() => {
 		app.listen(port);
-		console.log("Conectado");
+		console.log("\n Conectado ao MongoDB");
+		console.log(`\n Utilize a Url: http://localhost:${port}`);
 	})
 	.catch((error) => console.log("Erro: " + error));
